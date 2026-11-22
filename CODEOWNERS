@@ -1,0 +1,21 @@
+# Default CODEOWNERS for all Altumptic repositories
+# https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+#
+# Founder & Lead Developer: @thefear078
+# Organization: Altumptic (https://github.com/Altumptic)
+#
+# These owners are automatically requested for review
+# when someone opens a pull request that modifies code.
+
+# Global ownership — @thefear078 must review ALL changes
+*       @thefear078
+
+# Security-critical files require explicit owner review
+SECURITY.md             @thefear078
+CODEOWNERS              @thefear078
+.github/                @thefear078
+*.yml                   @thefear078
+*.yaml                  @thefear078
+Dockerfile              @thefear078
+docker-compose*.yml     @thefear078
+*.lock                  @thefear078
